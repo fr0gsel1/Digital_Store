@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TON Converter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://ton-connect.github.io/tonconnect-sdk/tonconnect.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💱 Конвертер TON → USDT</h1>
+        <div class="converter">
+            <input type="number" id="ton-amount" placeholder="0.0">
+            <button id="convert-btn">Рассчитать</button>
+            <div id="result"></div>
+            <button id="connect-wallet">Подключить кошелёк</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
